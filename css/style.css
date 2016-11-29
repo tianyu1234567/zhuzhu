@@ -72,13 +72,13 @@ body,html{width: 100%;}
 	padding:0.3rem 0.6rem 0.5rem 0.6rem;
 }
 .lxwm_con h2{font-size: 0.3rem;line-height: 0.5rem;color:#4d4d4d;}
-.lxwm_con li{font-size: 0.25rem;color:#4d4d4d;line-height: 0.35rem;font-family: 'Microsoft Yahei';}
+.lxwm_con li{font-size: 0.25rem;color:#4d4d4d;line-height: 0.4rem;font-family: 'Microsoft Yahei';}
 .lxwm_con  img{width:100%;margin-top:0.25rem;}
-.lxwm_li1{background:url(../images/lxwm_yx_03.png) no-repeat left center;padding-left:0.35rem;background-size: 0.21rem 0.14rem;}
-.lxwm_li2{background:url(../images/lxwm_yx_03.png) no-repeat left center;padding-left:0.35rem;background-size: 0.21rem 0.14rem;}
-.lxwm_li3{background:url(../images/lxwm_ph_03.png) no-repeat left center;padding-left:0.35rem;background-size: 0.21rem 0.21rem;}
-.lxwm_li4{background:url(../images/lxwm_phone_03.png) no-repeat left center;padding-left:0.35rem;background-size: 0.21rem 0.2rem;}
-.lxwm_li5{background:url(../images/lxwm_dzh_03.png) no-repeat left center;padding-left:0.35rem;background-size: 0.21rem 0.21rem;}
+.lxwm_li1{background:url(../images/lxwm_yx_03.png) no-repeat left center;padding-left:0.4rem;background-size: 0.28rem 0.21rem;}
+.lxwm_li2{background:url(../images/lxwm_yx_03.png) no-repeat left center;padding-left:0.4rem;background-size: 0.28rem 0.21rem;}
+.lxwm_li3{background:url(../images/lxwm_ph_03.png) no-repeat left center;padding-left:0.4rem;background-size: 0.28rem 0.28rem;}
+.lxwm_li4{background:url(../images/lxwm_phone_03.png) no-repeat left center;padding-left:0.4rem;background-size: 0.28rem 0.28rem;}
+.lxwm_li5{background:url(../images/lxwm_dzh_03.png) no-repeat left 15%;padding-left:0.4rem;background-size: 0.28rem 0.28rem;}
 
 
 /*公司简介*/
@@ -113,13 +113,13 @@ body,html{width: 100%;}
 .xwxqy_fo span{font-size: 0.25rem;color:#999;font-family:'Microsoft Yahei'; }
 .xwxqy_span{margin-left:0.45rem;}
 /*荣誉证书*/
-.ryzs{margin-left:0.3rem;margin-top:0.3rem;margin-bottom: 0.8rem;}
-.ryzs li{float: left;margin-right:0.15rem;margin-top:0.4rem;}
+.ryzs{padding:0.3rem 0.3rem 0.8rem 0.3rem;}
+.ryzs li{margin-top:0.4rem;}
 .ryzs  img{
-	width:2.82rem;height:2.12rem;
+	 width:100%;
 }
 .ryzz_pt {
-	bottom: 0;width:2.82rem;line-height: 0.35rem;background:url(../images/ryzz_bg_03.png) repeat-x center bottom;height:0.35rem;text-align: center;color:#fff;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;font-size: 0.3rem;
+	bottom: 0;line-height: 0.6rem;background:url(../images/ryzz_bg_03.png) repeat-x center bottom;height:0.6rem;text-align: center;color:#fff;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;font-size: 0.3rem;width:100%;
 }
 /*组织机构*/
 .zzjg_img {

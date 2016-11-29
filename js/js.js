@@ -1,21 +1,28 @@
 $(function(){
-   
+     var a=function(e){e.preventDefault();}
     $(".meau").click(function(){
-    
+  
       if($(".nav").css("left")!=="0px"){
             $('.nav').animate({'left':'0'},200);
             $(".meau").removeClass("db").addClass("dn");
-           
+           var box = document.querySelector("body");
+          box.addEventListener("touchmove",a,function(e){
+              e = window.event || e;
+             e.preventDefault();
+          })
         }
-          
-        
+         
     });
     $(".nav_gb").click(function(){
           $('.nav').animate({'left':'-5.1rem'},200);
             $(".meau").removeClass("dn").addClass("db");
+         var box = document.querySelector("body");
+          box.removeEventListener("touchmove",a,function(e){
+              e = window.event || e;
+             e.preventDefault();
+          })
     });
     
-   
     /*touch事件*/
    /* var box = document.querySelector("body");
 		   var startPos,endPos,startTime,endTime;
